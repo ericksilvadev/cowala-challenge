@@ -30,9 +30,6 @@ const Form = () => {
   const handleChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = evt.target;
 
-    if (name === 'phone') {
-    }
-
     setForm({ ...form, [name]: value });
   };
 
