@@ -1,0 +1,14 @@
+header {
+  height: 7rem;
+  width: 100%;
+  background: $dark-blue;
+  padding: 0 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  img + img {
+    margin-left: 1.5rem;
+  }
+}
