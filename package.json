@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/react-input-mask": "^3.0.1",
+    "react-input-mask": "^2.0.4"
+  }
+}
