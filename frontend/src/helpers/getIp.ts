@@ -7,7 +7,5 @@ interface IGetIp {
 export const getIp = async () => {
   const { data: ip } = await axios.get<IGetIp>('https://ip-fast.com/api/ip/');
 
-  console.log(ip);
-
   return ip;
 };
